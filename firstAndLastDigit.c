@@ -4,7 +4,7 @@ int main(){
     printf("Enter a number : ");
     scanf("%d",&num);
 
-    (num < 0)? -num : num;
+    num = (num < 0)? -num : num;
 
     last = num % 10;
     first = num;
